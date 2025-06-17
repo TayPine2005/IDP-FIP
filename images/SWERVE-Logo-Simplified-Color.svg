@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 109.56 144.65">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #44ffd1;
+        stroke: #58519b;
+        stroke-miterlimit: 10;
+        stroke-width: 1.95px;
+      }
+    </style>
+  </defs>
+  <g id="Simplified-Logo-Color">
+    <path class="cls-1" d="M69.77,57.58l-5.13,21.69,26.97,27.03,16.89-51.52L80.52,1.34l-42.12,23.7-12.3,51.89,24.52,12.62s-32.83-5.6-49.61,8.02l2.6,28.28c11.5-8.65,77.01,17.56,77.01,17.56l16.25-31.99-5.27-5.11"/>
+  </g>
+</svg>
