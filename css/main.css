@@ -183,7 +183,50 @@ section h2, section h3, section p {
 
 /* 4. --- END Flavor --- */
 
-/* 5. --- Footer --- */
+
+/* 5. --- Form --- */
+
+#sign-in-form {
+    width: 450px;
+}
+
+#sign-in-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+#sign-in-form input, textarea {
+    padding: 22px;
+   border: 2px solid #d6d6d6;
+   background-color: #f7f7f7;
+   border-radius: 1px;
+   margin-bottom: 30px;
+   font: inherit;
+   width: 100%;
+}
+
+#sign-in-form textarea {
+    height: 250px;
+}
+
+#sign-in-form input[type="submit"] {
+    padding: 10px 20px;
+   background: #6153CC;
+   border: 2px solid #44FFD1;
+   color: #ffffff;
+   transition: all 200ms ease-in;
+   width: 200px;
+   align-self: flex-end;
+}
+
+#sign-in-form input[type="submit"]:hover {
+    background: #44FFD1;
+    color: #360A14;
+    border: 2px solid #6153CC;
+    border-radius: 5px;
+}
+
+/* 6. --- Footer --- */
 
 footer {
     background-color: #360A14;
@@ -212,6 +255,8 @@ footer {
 .footer-list ul li a:hover {
     color: #2714b3;
 }
+
+/* 6. --- END Footer --- */
 
 /* 2. --- Mobile Grid --- */
 
