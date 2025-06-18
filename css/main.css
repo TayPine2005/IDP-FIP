@@ -5,7 +5,7 @@
     CSS Guide
 
     1. General Styles
-    2. 
+    2. Main Nav
 
 */
 
@@ -17,6 +17,7 @@ body {
     font-style: normal;
     margin: 0px;
     padding: 0px;
+    color: #6153CC;
 }
 
 img, embed, object, video, picture {
@@ -56,6 +57,162 @@ section h2, section h3, section p {
 
 /* 1. --- END General Styles --- */
 
+/* 2. --- Main Nav --- */
+
+#main-nav label img {
+    width: 20px;
+    height: 20px;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: all .5s ease;
+    margin-bottom: 20px;
+}
+
+#main-nav input, #burger {
+    display: none;
+}
+
+/* Sibling Selectors */
+
+#main-nav input:checked ~ #burger {
+    display: block;
+}
+
+#main-nav input:checked ~ label img {
+    transform: rotate(90deg);
+}
+
+#main-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#main-nav ul li a {
+    display: block;
+    padding: 8px 0 8px 0;
+    transition: all 500ms linear;
+    text-align: center;
+    color: #6153CC;
+}
+
+#main-nav ul li a:hover {
+    color: #2714b3;
+}
+
+#main-nav ul li {
+    border-bottom: 1px solid #A60067;
+}
+
+#main-nav ul li:first-child {
+    border-top: 1px solid #A60067;
+}
+
+#main-nav ul li:last-child {
+    margin-bottom: 40px;
+}
+
+
+#logo {
+    margin-top: 20px;
+    max-width: 200px;
+}
+
+/* 2. --- END Main Nav --- */
+
+/* 3. --- Hero --- */
+
+#hero {
+    max-width: 100%;
+    margin-bottom: 25px;
+    padding: 15px, 0, 15px, 0;
+}
+
+.line-divider {
+    margin-top: 15px;
+   border-top: solid 2px #6153CC;
+   padding-top: 15px;
+}
+
+/* 3. --- END Hero --- */
+
+/* 4. --- Flavors --- */
+
+
+#center-can img {
+    max-width: 100%;
+    width: 200px;
+    margin-top: 5%;
+    transition: all 500ms linear;
+    scale: 95px;
+    opacity: 75%;
+}
+
+#center-can img:hover {
+    scale: 100%;
+    opacity: 100%;
+}
+
+#left-can img {
+    max-width: 100%;
+    width: 200px;
+    margin-top: 5%;
+    transition: all 500ms linear;
+    scale: 95px;
+    opacity: 75%;
+}
+
+#left-can img:hover {
+    scale: 100%;
+    opacity: 100%;
+}
+
+#right-can img {
+    max-width: 100%;
+    width: 200px;
+    margin-top: 5%;
+    transition: all 500ms linear;
+    scale: 95px;
+    opacity: 75%;
+}
+
+#right-can img:hover {
+    scale: 100%;
+    opacity: 100%;
+}
+
+/* 4. --- END Flavor --- */
+
+/* 5. --- Footer --- */
+
+footer {
+    background-color: #360A14;
+}
+
+#footer-logo img {
+    margin: 10px;
+    padding: 10px;
+}
+
+.footer-list ul {
+    list-style: none;
+}
+
+.footer-list ul li {
+    margin: 5px;
+    padding: 5px;
+}
+
+.footer-list ul li a {
+    transition: all 500ms linear;
+    text-align: center;
+    color: #6153CC;
+}
+
+.footer-list ul li a:hover {
+    color: #2714b3;
+}
+
 /* 2. --- Mobile Grid --- */
 
 
@@ -67,9 +224,6 @@ section h2, section h3, section p {
 @media screen and (min-width: 768px) {
 
 
-
-
-
 }
 
 /* 3. --- END Tablet Grid --- */
@@ -78,8 +232,6 @@ section h2, section h3, section p {
 
 @media screen and (min-width: 1200px) {
 
-
-
 }
 
 /* 4. --- END Desktop Grid --- */
@@ -87,9 +239,6 @@ section h2, section h3, section p {
 /* 5. --- XL Grid --- */
 
 @media screen and (min-width: 1920px) {
-
-
-
 
 
 }
