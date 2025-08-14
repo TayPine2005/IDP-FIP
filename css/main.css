@@ -17,7 +17,7 @@ body {
     font-style: normal;
     margin: 0px;
     padding: 0px;
-    color: #6153CC;
+    color: #360A14;
 }
 
 img, embed, object, video, picture {
@@ -130,7 +130,7 @@ section h2, section h3, section p {
 
 .line-divider {
     margin-top: 15px;
-   border-top: solid 2px #6153CC;
+   border-top: solid 2px #D60DB0;
    padding-top: 15px;
 }
 
@@ -212,7 +212,7 @@ section h2, section h3, section p {
 #sign-in-form input[type="submit"] {
     padding: 10px 20px;
    background: #6153CC;
-   border: 2px solid #44FFD1;
+   border: 2px solid #D60DB0;
    color: #ffffff;
    transition: all 200ms ease-in;
    width: 200px;
@@ -220,8 +220,8 @@ section h2, section h3, section p {
 }
 
 #sign-in-form input[type="submit"]:hover {
-    background: #44FFD1;
-    color: #360A14;
+    background: #D60DB0;
+    color: #FFF;
     border: 2px solid #6153CC;
     border-radius: 5px;
 }
@@ -229,7 +229,7 @@ section h2, section h3, section p {
 /* 6. --- Footer --- */
 
 footer {
-    background-color: #360A14;
+    background-color: #000;
 }
 
 #footer-logo img {
@@ -249,11 +249,11 @@ footer {
 .footer-list ul li a {
     transition: all 500ms linear;
     text-align: center;
-    color: #6153CC;
+    color: #FFF;
 }
 
 .footer-list ul li a:hover {
-    color: #2714b3;
+    color: #6153CC;
 }
 
 /* 6. --- END Footer --- */
